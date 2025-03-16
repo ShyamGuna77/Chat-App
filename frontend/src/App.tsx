@@ -8,7 +8,8 @@ interface Message {
   timestamp: string;
 }
 
-const WS_URL = "ws://localhost:8080"; // Change this if backend is hosted elsewhere
+const WS_URL = "wss://chat-app-1-fgtr.onrender.com"; // Updated WebSocket URL
+
 
 const App: React.FC = () => {
   const [username, setUsername] = useState("");
