@@ -8,7 +8,7 @@ interface Message {
   timestamp: string;
 }
 
-const WS_URL = "wss://chat-app-1-fgtr.onrender.com"; // Updated WebSocket URL
+const WS_URL = "wss://chat-app-1-fgtr.onrender.com"; 
 
 
 const App: React.FC = () => {
